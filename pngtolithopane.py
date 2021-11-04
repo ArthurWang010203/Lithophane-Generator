@@ -2,7 +2,7 @@ from PIL import Image
 
 
 def main():
-    img = Image.open('C:/Users/arthu/Pictures/CAD Canvas/halloween.jpg','r')
+    img = Image.open('file_path/halloween.jpg','r')
     imgWidth, imgHeight = img.size
     img = img.convert('RGBA')
     imgdata = img.getdata()
